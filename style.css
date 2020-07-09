@@ -160,9 +160,38 @@ howItWorks
 }
 .howItWorks .container article h3 {
     font-size: 1.7rem;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
-
+/******************************
+artists
+******************************/
+.artists {
+    padding: var(--padding);
+}
+.artists .row:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.artists .row:first-child h2 {
+    flex: 1;
+}
+.artists .row:first-child p {
+    flex: 1;
+}
+.artists .row:last-child {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.artists .row:last-child .col {
+    flex: 0 0 22%;
+    text-align: center;
+}
+.artists .row:last-child .col img {
+    width: 100%;
+    border-radius: 40px;
+}
 
 
 
