@@ -115,9 +115,11 @@ header .col:first-child p {
     padding: 20px 0;
 }
 header .col:last-child {
-    width: 100%;
     display: flex;
     justify-content: center;
+}
+header img {
+    width: 100%;
 }
 /******************************
 unlimited
@@ -125,6 +127,7 @@ unlimited
 .unlimited {
     padding: var(--padding);
     display: flex;
+    flex-wrap: wrap;
 }
 .unlimited article:first-child {
     flex: 1;
@@ -183,6 +186,7 @@ artists
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 .artists .row:last-child .col {
     flex: 0 0 22%;
@@ -215,7 +219,57 @@ footer p {
 footer .icons a {
     margin: 0 20px;
 }
-
+/******************************
+R E S P O N S I V E
+******************************/
+@media(max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 20px
+    }
+    nav ul li a {
+        margin: 5px;
+    }
+    .container {
+        width:90%;
+    }
+    header {
+        padding: 20px;
+    }
+    header .col {
+        flex: 0 0 100%;
+    }
+    header .col:first-child h1 {
+        font-size: 2rem;
+    }
+    header .col:first-child {
+        margin-bottom: 30px
+    }
+    .unlimited article:first-child {
+        flex: 0 0 100%;
+    }
+    .unlimited article:last-child {
+        flex: 0 0 100%;
+    }
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 30px
+    }
+    .howItWorks .container article {
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+    .artists .row:first-child h2 {
+        flex: 0 0 100%;
+    }
+    .artists .row:first-child p {
+        flex: 0 0 100%;
+    }
+    .artists .row:last-child .col {
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+}
 
 
 
