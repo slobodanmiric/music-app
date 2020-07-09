@@ -134,5 +134,41 @@ unlimited
 .unlimited article:last-child {
     flex: 1;
 }
+/******************************
+howItWorks
+******************************/
+.howItWorks {
+    padding: var(--padding);
+    background: var(--tamnoPlava);
+    color: var(--bela);
+}
+.howItWorks h2 {
+    padding-bottom: 30px;
+}
+.howItWorks .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.howItWorks .container article {
+    flex: 0 0 30%;
+}
+.howItWorks .container article i {
+    color: var(--pink);
+    font-size: 4rem;
+    margin-bottom: 20px
+}
+.howItWorks .container article h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px
+}
+
+
+
+
+
+
+
+
 
 
