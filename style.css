@@ -14,3 +14,54 @@ variables
     --fontFamily: 'Montserrat', sans-serif;
     --transition: .3s ease;
 }
+/******************************
+basic styles
+******************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: var(--font);
+    color: var(--fontColor);
+    font-family: var(--fontFamily);
+    line-height: 1.5;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--bela);
+}
+a:hover {
+    color: var(--pink);
+}
+/******************************
+nav
+******************************/
+nav {
+    background: var(--navPlava);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+nav .logo {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+nav .logo span {
+    color: var(--pink);
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    margin-left: 50px;
+}
+
+
+
+
