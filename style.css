@@ -47,11 +47,20 @@ button {
     border-radius: 40px;
     text-transform: uppercase;
     margin-top: 20px;
+    width: 250px;
 }
 button:hover {
     cursor: pointer;
     background: var(--violet);
     transition: var(--transition);
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.1;
 }
 /******************************
 nav
@@ -110,6 +119,20 @@ header .col:last-child {
     display: flex;
     justify-content: center;
 }
-
+/******************************
+unlimited
+******************************/
+.unlimited {
+    padding: var(--padding);
+    display: flex;
+}
+.unlimited article:first-child {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.unlimited article:last-child {
+    flex: 1;
+}
 
 
