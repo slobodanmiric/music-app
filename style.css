@@ -192,8 +192,29 @@ artists
     width: 100%;
     border-radius: 40px;
 }
-
-
+/******************************
+footer
+******************************/
+footer {
+    background: var(--tamnoPlava);
+    text-align: center;
+    padding: var(--padding);
+    color: var(--bela);
+}
+footer .logo {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+footer .logo span {
+    color: var(--pink);
+}
+footer p {
+    padding: 20px 0;
+    font-size: .8rem
+}
+footer .icons a {
+    margin: 0 20px;
+}
 
 
 
