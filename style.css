@@ -1,0 +1,16 @@
+/******************************
+variables
+******************************/
+:root {
+    --navPlava: #09192c;
+    --tamnoPlava: #0b193c;
+    --pink: #f91257;
+    --bela: #fff;
+    --svetloSiva: #f8f8f8;
+    --fontColor: #0b193c;
+    --violet: #383c6e;
+    --font: 16px;
+    --padding: 80px 0;
+    --fontFamily: 'Montserrat', sans-serif;
+    --transition: .3s ease;
+}
